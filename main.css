@@ -1,4 +1,4 @@
-* {
+ * {
     box-sizing: border-box;
 }
 
@@ -7,39 +7,37 @@ body {
     font-family: Tahoma, Arial;
 }
 
-div.menu {
+nav.menu {
     width: 100%;
-    background-color: #4d5791;
+    background-color: #3a3f60; 
     height: 44px;
     padding: 0 40px;
 }
-
-div.menu ul,
-div.menu ul li {
+nav.menu ul,
+nav.menu ul li {
     margin: 0;
     padding: 0 ;
     list-style: none;
     display: inline-block;
 }
-
-div.menu ul li a {
+nav.menu ul li a {
     display: block;
     padding: 0 20px;
     line-height: 44px;
     font-size: 1.4em;
     text-decoration: none;
-    color: #fff;
+    color: #f0f0f0;
     margin: 0;
 }
 
-div.menu ul li a:hover  {
-    background-color: white;
-    color: #4d5791;
+nav.menu ul li a:hover  {
+    background-color: #f0f0f0;
+    color: #3a3f60; 
 }
 
 div.hero {
     height: 350px;
-    background-color: #b4c6f0;
+    background-color: #a9b1c8; 
     background-image: url('/bg.png');
     background-size: 400px;
     background-repeat: no-repeat;
@@ -54,13 +52,13 @@ div.hero h2 {
 }
 
 div.hero h1 {
-    color: #fff;
+    color: #ffffff; 
     font-size: 4.2em;
     margin-bottom: 20px;
 }
 
 div.hero h2 {
-    color: #4d5791;
+    color: #3a3f60; 
 }
 
 .container {
@@ -75,7 +73,7 @@ div.hero h2 {
 
 .bottom {
     height: 50px;
-    background-color: #b4c6f0;
+    background-color: #a9b1c8; 
     padding: 40px;
 }
 
@@ -89,6 +87,7 @@ div.hero h2 {
     max-width: 340px;
     text-align: justify;
     margin: 20px;
+    color: #333; 
 }
 
 @media screen and (min-width: 768px) {
