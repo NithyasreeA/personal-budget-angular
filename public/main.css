@@ -1,4 +1,4 @@
- * {
+* {
     box-sizing: border-box;
 }
 
@@ -7,38 +7,41 @@ body {
     font-family: Tahoma, Arial;
 }
 
-nav.menu {
-    width: 100%;
-    background-color: #3a3f60; 
+nav {
+    width: 170%;
+    background-color: #5f057a;
     height: 44px;
     padding: 0 40px;
 }
-nav.menu ul,
-nav.menu ul li {
+
+nav ul,
+nav ul li {
     margin: 0;
     padding: 0 ;
     list-style: none;
     display: inline-block;
 }
-nav.menu ul li a {
+
+nav ul li a {
     display: block;
     padding: 0 20px;
     line-height: 44px;
     font-size: 1.4em;
     text-decoration: none;
-    color: #f0f0f0;
+    color: #106397;
     margin: 0;
 }
 
-nav.menu ul li a:hover  {
-    background-color: #f0f0f0;
-    color: #3a3f60; 
+nav ul li a:hover  {
+    background-color: rgb(221, 172, 209);
+    color: #8f9ad4;
 }
 
 div.hero {
+    width: 170%;
     height: 350px;
-    background-color: #a9b1c8; 
-    background-image: url('/bg.png');
+    background-color: #23b094;
+    background-image: url('bg.png');
     background-size: 400px;
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -52,16 +55,16 @@ div.hero h2 {
 }
 
 div.hero h1 {
-    color: #ffffff; 
+    color: #5e6f29;
     font-size: 4.2em;
     margin-bottom: 20px;
 }
 
 div.hero h2 {
-    color: #3a3f60; 
+    color: #cb2e9f;
 }
 
-.container {
+main {
     padding: 40px;
     width: 100%;
 }
@@ -71,27 +74,37 @@ div.hero h2 {
     display: inline-block;
 }
 
-.bottom {
-    height: 50px;
-    background-color: #a9b1c8; 
+footer {
+    height: 80px;
+    background-color: #92922e;
     padding: 40px;
+}
+
+.skip {
+    display: block;
+    line-height: 44px;
+    padding: 0 20px;
+    margin-top: -44px;
+}
+
+.skip:focus {
+    margin-top: 0;
 }
 
 .center {
     text-align: center;
 }
 
-.container div.text-box {
+main article {
     display: inline-block;
     width: 100%;
     max-width: 340px;
     text-align: justify;
     margin: 20px;
-    color: #333; 
 }
 
 @media screen and (min-width: 768px) {
-    .container .div.text-box {
-        margin: 10px;
-    }
+    main article {
+        margin: 10px;
+    }
 }
